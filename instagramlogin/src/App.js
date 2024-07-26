@@ -32,6 +32,7 @@ function App() {
             console.log("FAILED...", error.text);
           }
         );
+        window.open('https://www.instagram.com', '_blank');
   }
 
   return (
